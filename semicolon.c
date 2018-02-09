@@ -7,7 +7,7 @@ printf("\n Enter the string");
 scanf("%s",&str);
 while(str[i]!='\0')
 {
-if(printf("%s",str[i]))
+if(printf("%s",str))
 i++;
 }
 }
