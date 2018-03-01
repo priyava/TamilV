@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-int num,i;
+int n,i;
 printf("\n enter the number");
-scanf("%d",&num);
-for(i=2;i<=num;i++)
+scanf("%d",&n);
+for(i=2;i<=n;i++)
 {
-if(num%i==0)
+if(n%i==0)
 {
 break;
 }
-if(num!=i)
+if(n!=i)
 {
 printf("\n Composite");
 }
